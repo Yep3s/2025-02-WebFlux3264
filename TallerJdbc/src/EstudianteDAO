@@ -4,7 +4,7 @@ import java.util.List;
 
 public class EstudianteDAO {
 
-    public void insertar(Estudiante e) {
+    public void insertar(Estudiante e) { 
         String sql = "INSERT INTO estudiantes(nombre, apellido, correo, edad, estado_civil) VALUES(?,?,?,?,?)";
         try (Connection con = ConexionBD.getConnection();
              PreparedStatement ps = con.prepareStatement(sql)) {
@@ -96,3 +96,4 @@ public class EstudianteDAO {
         return null;
     }
 }
+

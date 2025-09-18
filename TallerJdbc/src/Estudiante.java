@@ -1,7 +1,7 @@
 public class Estudiante {
     private int id;
     private String nombre;
-    private String apellido;
+    private String apellido; 
     private String correo;
     private int edad;
     private String estadoCivil;
@@ -30,3 +30,4 @@ public class Estudiante {
     public int getEdad() { return edad; }
     public String getEstadoCivil() { return estadoCivil; }
 }
+

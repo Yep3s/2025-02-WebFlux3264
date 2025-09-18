@@ -1,7 +1,7 @@
 CREATE DATABASE tallerjdbc;
 
 USE tallerjdbc;
-
+ 
 CREATE TABLE estudiantes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -10,3 +10,4 @@ CREATE TABLE estudiantes (
     edad INT NOT NULL,
     estado_civil ENUM('SOLTERO', 'CASADO', 'VIUDO', 'UNION_LIBRE', 'DIVORCIADO') NOT NULL
 );
+
